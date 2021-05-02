@@ -1,0 +1,23 @@
+
+body{
+background-color: rgb(168, 135, 50);
+
+}
+
+.fish1 {
+width: 300px ;
+
+}
+h1{
+text-align: center;
+background-color: rgb(44, 236, 243);
+padding: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  
+}
+#fishimg{
+width: 700px;
+height: 300px ;
+}
