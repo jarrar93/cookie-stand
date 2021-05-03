@@ -1,3 +1,9 @@
+"use strict";
+
+
+
+
+
 const hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
 
 
@@ -329,6 +335,9 @@ console.log(Lima);
 Lima.calcCustomersEachHour();
 Lima.calcCookiesEachHour();
 Lima.renderFunction();
+
+
+// i will to do the table to information above this line 
 
 
 
