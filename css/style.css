@@ -1,6 +1,16 @@
 
+b { 
+  width: 100%;
+  display: inline-block;
+  flex-direction:row;
+  font-size: 50px;
+  color: rgb(194, 72, 56);
+  
+}
+
+
 body{
-background-color: rgb(168, 135, 50);
+background-color: rgb(83, 79, 69);
 
 }
 
@@ -9,15 +19,24 @@ width: 300px ;
 
 }
 h1{
+  color: rgb(238, 195, 5);
 text-align: center;
-background-color: rgb(44, 236, 243);
+background-color: rgb(31, 39, 39);
 padding: 30px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-p {
-  
+h2{
+  font-size: 40px;
+  color: rgb(245, 209, 7);
 }
 #fishimg{
-width: 700px;
+  margin-top: 50px;
+  
+  margin: 0px 0px 20px 500px;
+width: 1000px;
 height: 300px ;
+}
+p{ 
+  color: rgb(240, 205, 8);
+  font-size: 35px;
 }
