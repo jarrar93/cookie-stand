@@ -1,4 +1,4 @@
-let branchs = []
+var branchs = []
 time1 = ['6am ', '7am ', '8am ', '9am ', '10am ', '11am ', '12pm ', '1pm ', '2pm ', '3pm ', '4pm ', '5pm ', '6pm ', '7pm '];
 function Branch(name, maxHourlyCustomers, minHourlyCustomers, avgCookiesPerCustomer) {//first we put every probarities variable in the opject to the function structor
   this.name = name;
@@ -15,7 +15,7 @@ function Branch(name, maxHourlyCustomers, minHourlyCustomers, avgCookiesPerCusto
 }
 
 Branch.prototype.getTotalArray = function () {//we  use prototype to write the function out of function stractor
-  for (let i = 0; i < 14; i++) {
+  for (var i = 0; i < 14; i++) {
     this.randomcustumer = getRandomInt(this.minHourlyCustomers, this.maxHourlyCustomers);
     this.numberCookiesBerHour = Math.floor(this.randomcustumer * this.avgCookiesPerCustomer);
     this.purchased.push(this.numberCookiesBerHour);
@@ -24,8 +24,8 @@ Branch.prototype.getTotalArray = function () {//we  use prototype to write the f
 }
 
 Branch.prototype.render = function () {
-  let container = document.getElementById('cookies');
-  let articleEl = document.createElement('article');
+  var container = document.getElementById('cookies');
+  var articleEl = document.createElement('article');
   container.appendChild(articleEl);
 
   // var h2El = document.createElement('h2');
@@ -68,8 +68,8 @@ function fell(namo, arr, tota) {
 }
 
 function tabledata() {
-  let totalArray = []
-  let branchssum = 0
+  var totalArray = []
+  var branchssum = 0
   fell('', time1, 'Daily Location Total', 'th');
 
   for (var i = 0; i < branchs.length; i++) {
