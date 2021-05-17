@@ -4,23 +4,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>salomen cookies</title>
+  <title>cookies</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-
-  <img id="personal-img" src="img/fish.png">
-  <h1 id="A">salamon cookies</h1>
-  <nav>
-    <ul>
-      <li><a href="#Myedu">Home</a></li>
-      <li><a href="sales.html">Sales</a></li>
-      <li><a href="#contact">Contact us</a></li>
-    </ul>
-  </nav>
-  <p> </p>
+  <header>
+    <!-- to make a change back botton"start" -->
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="css/index.css">
+    <script>
+      function swapStyleSheet(sheet) {
+        document.getElementById('pagestyle').setAttribute('href', sheet);
+      }
+    </script>
+    <button onclick="swapStyleSheet('css/changeBack.css')">Press to change color</button>
+    <button onclick="swapStyleSheet('css/index.css')">Default background</button>
+    <!-- to make a change back button"end" -->
+    <img id="personal-img" src="img/fish.png">
+    <h1 id="A">Pat salamon cookies</h1>
+    <nav>
+      <ul>
+        <li><a href="#Myedu">Home</a></li>
+        <li><a href="sales.html">Sales</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+    </nav>
+    <p> </p>
 
   </header>
   <main>
@@ -29,9 +39,9 @@
       <ul class="slides">
         <input type="radio" name="radio-btn" id="img-1" checked />
         <li class="slide-container">
-          <!-- <div class="slide">
+          <div class="slide">
             <img src="img/slamon3.jpg" />
-          </div> -->
+          </div>
           <div class="nav">
             <label for="img-6" class="prev">&#x2039;</label>
             <label for="img-2" class="next">&#x203a;</label>
@@ -93,14 +103,14 @@
           </div>
         </li>
 
-        <!-- <li class="nav-dots">
+        <li class="nav-dots">
           <label for="img-1" class="nav-dot" id="img-dot-1"></label>
           <label for="img-2" class="nav-dot" id="img-dot-2"></label>
           <label for="img-3" class="nav-dot" id="img-dot-3"></label>
           <label for="img-4" class="nav-dot" id="img-dot-4"></label>
           <label for="img-5" class="nav-dot" id="img-dot-5"></label>
           <label for="img-6" class="nav-dot" id="img-dot-6"></label>
-        </li> -->
+        </li>
       </ul>
       <section id='maps'>
         <iframe class='maps'
@@ -118,6 +128,7 @@
         <iframe class='maps'
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d499488.8829142493!2d-77.26799104830981!3d-12.025826941238185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sLima%2C%20Peru!5e0!3m2!1sen!2sjo!4v1582638254641!5m2!1sen!2sjo"
           width="200" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        /section>
       </section>
       <br>
       <br>
@@ -147,15 +158,7 @@
       </section>
       <br>
       <br>
-      <section id="contact">
-        <ul id="by">
-          <li class="boxx linkedin"></li>
-          <li class="boxx github"></li>
-          <li class="boxx twitter"></li>
-          <li class="boxx dribbble"></li>
-          <li class="boxx vine"></li>
-        </ul>
-      </section>
+
   </main>
   <br>
   <br>
@@ -205,27 +208,18 @@
   <br>
   <br>
   <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
 
+  </section>
+  <section id="contact">
+    <ul id="by">
+      <li class="boxx linkedin"></li>
+      <li class="boxx github"></li>
+      <li class="boxx twitter"></li>
+      <li class="boxx dribbble"></li>
+      <li class="boxx vine"></li>
+    </ul>
+  </section>
   <footer>
-    <p>ahmad jarrar</p>
     <p>All copyrights reserved © 2020-2021</p>
   </footer>
 

@@ -1,4 +1,4 @@
-
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
 table {
   border-collapse: collapse;
   width: 100%;
@@ -7,7 +7,6 @@ table {
 th, td {
   text-align: left;
   padding: 8px;
-  font-family: sans-serif;
 }
 
 #maps {
@@ -19,7 +18,7 @@ th, td {
 
 tr:nth-child(even) {background-color: #f2f2f2;}
  html { 
-    background-image: linear-gradient(to left,rgb(63, 207, 212),rgb(150, 218, 150)) ;
+    background: url(../img/html.gif) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,8 +27,9 @@ tr:nth-child(even) {background-color: #f2f2f2;}
  header{
     
     background: url(../img/header.jpg);
-    border: 1px solid #fff8f8;
-    opacity: 75% 
+    border: 1px solid #afafaf;
+    opacity: 88%;
+    position: sticky;
     top: 0;
     z-index: 10;
 }
@@ -73,21 +73,16 @@ main h1 {
     color:rgb(255, 73, 73);
     font-size: 25px;
 
-}
-p {
- font-family: Georgia, 'Times New Roman', Times, serif;
- font-size:17px; 
- color: blue;
 }   
 #first{
     font-size: 20px;
     font-family: "Times New Roman", Times, serif;
 }
 #A{
-    
+    /* Iam Abdallah Obaid */
     text-align: center;
-    font-size: 55px;
-    color: #edf5ef;
+    color: #04551c;
+    font-family: "Times New Roman", Times, serif;
     margin-top: 20px;
     margin-left: 150px;
 }
@@ -132,7 +127,7 @@ margin-left: 50px;
 background-color: #b9fffb ;
 border-radius: 40px 0 40px 0;
 }
-
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
 /* html, body { background: #333 url("https://codepen.io/images/classy_fabric.png"); } */
 

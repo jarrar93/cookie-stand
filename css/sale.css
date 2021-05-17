@@ -11,7 +11,7 @@ th, td {
 
 tr:nth-child(even) {background-color: #f2f2f2;}
  html { 
-    background-color:rgb(30, 228, 30);
+    background: url(https://media1.tenor.com/images/3281c3015614d0cca46d15e354a2ae5b/tenor.gif?itemid=15852456) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,7 +19,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 }
  header{
     
-    
+    background: url(../img/header.jpg);
     border: 1px solid #afafaf;
     opacity: 88%;
     position: sticky;
